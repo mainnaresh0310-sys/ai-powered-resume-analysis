@@ -24,6 +24,7 @@ interviewRouter.get("/report/:interviewId", authMiddleware.authUser, interviewCo
 
 /**
  * @route GET /api/interview/
+ * 
  * @description get all interview reports of logged in user.
  * @access private
  */
